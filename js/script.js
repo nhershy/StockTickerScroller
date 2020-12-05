@@ -30,7 +30,7 @@ $(function() {
 
   if (FULL_TICKER_COUNT > 20) {
     $("#startBtn").hide();
-    alert('You have exceeded allowed number of stocks/indices/cryptos.' +
+    alert('You have exceeded the allowed number of stocks/indices/cryptos.' +
          '\nTotal maximum allowed are 20. Please reduce your choices.');
   }
   else {
